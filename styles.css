@@ -25,6 +25,14 @@ button{
     font-family: sans-serif;
 }
 
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
+}
+
 li{
     display: inline;
     margin-right: 25px;
@@ -83,6 +91,56 @@ li{
 }
 
 .main{
-    margin-top: 140px;
+    margin-top: 285px;
     text-align: center;
+}
+
+.publicidad{
+    margin-left: 30px;
+}
+
+.publicidad h3{
+    font-family: 'Alegreya', serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+}
+
+.publicidad > p{
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.publicidad > form{
+    display: flex;
+}
+
+.publicidad > form p {
+    color: #025157;
+    margin-right: 18px;
+}
+
+.promo{
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+
+iframe {
+    display: flex;
+    margin: auto;
+}
+
+.explanatory-video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.explanatory-video img{
+    width: 120px;
+    margin-top: 10px;
 }
