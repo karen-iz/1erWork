@@ -1,0 +1,22 @@
+{
+  "name": "1erwork",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karen-iz/1erWork.git"
+  },
+  "author": "Karen Castillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karen-iz/1erWork/issues"
+  },
+  "homepage": "https://github.com/karen-iz/1erWork#readme",
+  "dependencies": {
+    "sass": "^1.53.0"
+  }
+}
